@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <div class="page-wrapper">
+        <header class="header">
+          <nav class="nav-container">
+            <a href="/">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+          </nav>
+        </header>
+        <section class="form-container">
+          <div class="contact-me">
+            <h1>Contact Me!</h1>
+          </div>
+          <form class="contact-form" method="post">
+            <label>
+              <span>Name (required)</span>
+              <input
+                class="name"
+                name="name"
+                type="text"
+                placeholder="Your name..."
+                required
+              />
+            </label>
+            <label>
+              <span>Last Name</span>
+              <input
+                class="last-name"
+                name="lastName"
+                type="text"
+                placeholder="Your Last Name..."
+              />
+            </label>
+            <label>
+              <span>Email (required)</span>
+              <input
+                class="email"
+                name="email"
+                type="email"
+                placeholder="Your Last Name..."
+                required
+              />
+            </label>
+            <label>
+              <span>Comment (required)</span>
+              <textarea
+                class="comment"
+                name="comment"
+                placeholder="Write your comment here..."
+                required
+              ></textarea>
+            </label>
+            <label for="newsletter">
+              Do you want to recieve our newsletter? (required)
+              <div class="radio-container">
+                <input type="radio" name="newsletter" value="yes" checked />
+                <span>Yes</span>
+                <input type="radio" name="newsletter" value="no" />
+                <span>No</span>
+              </div>
+            </label>
+            <div class="btn-container">
+              <button class="btn">Submit</button>
+            </div>
+            <div class="msg-success hide">Message sent succesfully!</div>
+          </form>
+        </section>
+      </div>
+      <footer>
+        <nav class="nav-container">
+          <a href="/">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+          <div>&#169; Israel Tech Challenge</div>
+        </nav>
+
+        <p class="footer__lng__paragraph"></p>
+      </footer>
+    </section>
+    <script src="./portfolio.js"></script>
+    <script src="./contact.js"></script>
+  </body>
+</html>
