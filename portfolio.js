@@ -1,18 +1,18 @@
 // card with GitHub
 
 //RECORDAR SACAR EL COMMENT DE LA PRIMERA LINEA
-// const GITHUB_URL = "https://api.github.com/users/alanLipschutz";
-// const profileImage = document.querySelector(".profile-image");
-// fetch(GITHUB_URL)
-//   .then(function (response) {
-//     return response.json();
-//   })
-//   .then(function (data) {
-//     const profileImage = document.getElementById("profile-image");
-//     profileImage.src = data.avatar_url;
-//     const profileName = document.getElementById("myName");
-//     profileName.innerHTML = data.name;
-//   });
+const GITHUB_URL = "https://api.github.com/users/alanLipschutz";
+const profileImage = document.querySelector(".profile-image");
+fetch(GITHUB_URL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    const profileImage = document.getElementById("profile-image");
+    profileImage.src = data.avatar_url;
+    const profileName = document.getElementById("myName");
+    profileName.innerHTML = data.name;
+  });
 
 // card with GitHub
 
