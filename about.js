@@ -35,7 +35,7 @@ function showMyInfo() {
 // change src of the map in one iframe
 const buenosAires = {
   name: "Buenos Aires City",
-  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.26483387461!2d-58.503338712402304!3d-34.615803735965876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires!5e0!3m2!1sen!2sar!4v1640201988946!5m2!1sen!2sar",
+  src: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110271.00565550962!2d-58.49231017071572!3d-34.6035147083642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0dcf8be07d%3A0x622d9d6e2cf66cf0!2sCnel.%20Apolinario%20Figueroa%20267%2C%20C1414%20CABA!5e0!3m2!1sen!2sar!4v1640444212212!5m2!1sen!2sar",
 };
 
 const telAviv = {
