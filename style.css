@@ -97,6 +97,14 @@ a:visited {
   text-decoration: none;
 }
 
+.hide {
+  display: none;
+}
+
+.hidebtn {
+  color: transparent;
+}
+
 .header {
   width: 100%;
   display: flex;
@@ -224,7 +232,7 @@ footer div {
 
 .btn-right:disabled,
 .btn-left:disabled {
-  color: #a6a6a6;
+  color: transparent;
   cursor: not-allowed;
 }
 
@@ -299,10 +307,6 @@ footer div {
 
 .btn:disabled {
   cursor: not-allowed;
-}
-
-.hide {
-  display: none;
 }
 
 .btn:hover {
