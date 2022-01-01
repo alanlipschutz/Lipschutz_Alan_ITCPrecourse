@@ -113,7 +113,7 @@ a:visited {
   background-color: black;
   position: fixed;
   top: 0%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .nav-container {
@@ -156,7 +156,7 @@ footer .nav-container {
 
 footer .nav-container a {
   padding: 0;
-  display: block;
+  /* display: block; */
   color: white;
   width: 20%;
 }
@@ -172,15 +172,9 @@ footer div {
 
 .footer__lng__paragraph {
   color: white;
-  margin: initial;
+  margin: 0;
   max-width: 500px;
   align-self: center;
-}
-
-.msg-success {
-  font-weight: bold;
-  align-self: center;
-  padding: 1rem;
 }
 
 /* ------------------ ABOUT BLOCK ---------------- */
@@ -195,7 +189,6 @@ footer div {
   flex-basis: 300px;
   justify-content: flex-start;
   cursor: pointer;
-  height: auto;
 }
 
 .about-me .aboutMe-card h2 {
@@ -220,15 +213,15 @@ footer div {
 .btn-right,
 .btn-left {
   border: none;
-  margin: 0 1rem;
+  margin: 0 2rem;
   font-size: 3rem;
   background-color: transparent;
   cursor: pointer;
 }
 
-.active {
+/* .active {
   display: block;
-}
+} */
 
 .btn-right:disabled,
 .btn-left:disabled {
@@ -244,6 +237,12 @@ footer div {
   gap: 3rem;
   padding: 20px;
   margin-bottom: 150px;
+}
+
+.contact-me h1 {
+  margin: 0;
+  align-self: flex-start;
+  font-size: 2rem;
 }
 
 .contact-form {
@@ -284,11 +283,6 @@ footer div {
   width: auto;
 }
 
-.contact-me h1 {
-  margin: 0;
-  align-self: flex-start;
-  font-size: 2rem;
-}
 .contact-form input,
 .contact-form textarea {
   border: black solid 1px;
@@ -311,4 +305,10 @@ footer div {
 
 .btn:hover {
   background-color: #ff66a3;
+}
+
+.msg-success {
+  font-weight: bold;
+  align-self: center;
+  padding: 1rem;
 }

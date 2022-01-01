@@ -46,8 +46,9 @@ function showArray() {
   const footerLegend = document.querySelector(".footer__lng__paragraph");
   footerLegend.innerText = createString(lang);
 }
-showArray();
 
-function init() {}
+function init() {
+  showArray();
+}
 
 init();
